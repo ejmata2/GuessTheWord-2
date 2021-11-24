@@ -78,7 +78,7 @@ class GameFragment : Fragment() {
     }
 
     /**
-     * Called when  the game is finished
+     * Called when the game is finished
      */
     private fun gameFinished() {
         Toast.makeText(activity, "Game has just finished", Toast.LENGTH_SHORT).show()
