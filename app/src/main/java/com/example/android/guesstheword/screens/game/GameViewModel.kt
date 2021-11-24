@@ -1,4 +1,4 @@
-package com.example.android.guesstheword.screens
+package com.example.android.guesstheword.screens.game
 
 import android.util.Log
 import androidx.lifecycle.LiveData
@@ -91,7 +91,7 @@ class GameViewModel : ViewModel() {
 
     override fun onCleared() {
         super.onCleared()
-        val i = Log.i("GameViewModel", "GameViewModel destroyed!")
+        Log.i("GameViewModel", "GameViewModel destroyed!")
     }
 
     /** Method for the game completed event **/
